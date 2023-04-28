@@ -1,0 +1,215 @@
+body {
+    height: 700vh;
+    /* 把頁面拉高 */
+    background-image: linear-gradient(#ebebeb 100%,  #dcdddf 52%, #c4c5c7 0%, #dcdddf 52%,#ebebeb 80%, #424242 100%);
+}
+
+
+.container {
+    position: relative;
+}
+
+.big-title {
+    position: absolute;
+    top:15%;
+    left:40%;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.menu{
+    word-spacing:1rem;
+}
+
+.shopping-png{
+    width: 50px;
+}
+
+.img-1 { /*臉 */
+    position: absolute;
+    top: 160vh;
+    left: 18%;
+    width: 900px;
+    z-index: 5;
+}
+
+.img-2 { /* 紅花 */
+    position: absolute;
+    right: -1%;
+    top: 162vh;
+    width: 200px;
+    z-index: 2; /* 數字愈大在愈上面 */
+}
+
+.img-3 { /* 花束 */
+    position: absolute;
+    right: -1%;
+    top: 205vh;
+    width:450px;
+    z-index: 1; /* 數字愈大在愈上面 */
+}
+
+.img-4 { /* 左下花 */
+    position: absolute;
+    left: -1%;
+    top: 210vh;
+    width: 330px;
+    z-index: 6; /* 數字愈大在愈上面 */
+}
+
+.img-5 { /* 左上花 */
+    position: absolute;
+    left: 5%;
+    top: 163vh;
+    width: 220px;
+    z-index: 3; /* 數字愈大在愈上面 */
+}
+
+.content{
+    position: relative;
+    font-size: 15px;
+    top: 130vh;
+}
+
+.read-more{
+    margin-top: 30px;
+}
+
+.title{
+    position: relative;
+    font-size: 30px;
+    top:150vh;
+}
+
+.link-top{
+    position: relative;
+    width: 50%;
+    height: 1px;
+    border-top: solid #8f8e8e 1px;
+    top: 150vh;
+    left: 25%;
+}
+
+.product1{
+    position: relative;
+    width: 80px;
+    left: 15%;
+    top: 168vh;
+}
+
+.img--product1{
+    border-radius: 90px;
+}
+
+
+.product-title{
+    position: relative;
+    font-size: 40px;
+    right: 20%;
+    top: 170vh;
+}
+
+.product-content{
+    position: relative;
+    font-size: 10px;
+    right: 20%;
+    top: 175vh;
+}
+
+.read-more2{
+    position: relative;
+    margin-top: 30px;
+    right: 20%;
+    top: 180vh;
+}
+
+.product-title2{
+    position: relative;
+    font-size: 40px;
+    left: 10%;
+    top: 175vh;
+}
+
+.read-more3{
+    position: relative;
+    margin-top: 30px;
+    left: 10%;
+    top: 180vh;
+}
+
+.product-content2{
+    position: relative;
+    font-size: 10px;
+    left: 10%;
+    top: 180vh;
+}
+
+.img--product2{
+    position: relative;
+    left: 15%;
+    top: 168vh;
+    width: 50%;
+    border-radius: 90px;
+}
+
+.title2{
+    position: relative;
+    font-size: 30px;
+    top:180vh; 
+}
+
+.link-top2{
+    position: relative;
+    width: 50%;
+    height: 1px;
+    border-top: solid #8f8e8e 1px;
+    top: 180vh;
+    left: 25%;
+}
+
+.store1{
+    width: 10px;
+    position: relative;
+    top: 190vh;
+}
+
+.img-store1{
+    border-radius: 80px;
+}
+
+.store1-word{
+    margin-top: 20px;
+}
+
+.store2{
+    width: 10px;
+    position: relative;
+    top: 190vh;
+}
+
+.img-store2{
+    border-radius: 80px;
+}
+
+.store2-word{
+    margin-top: 20px;
+}
+
+.store3{
+    width: 10px;
+    position: relative;
+    top: 190vh;
+}
+
+.img-store3{
+    border-radius: 80px;
+}
+
+.store3-word{
+    margin-top: 20px;
+}
+
+.store-info{
+    position: relative;
+    top: 250vh;
+}
